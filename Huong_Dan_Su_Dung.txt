@@ -1,0 +1,58 @@
+========================================================================
+    TIKTOK AUTOMATION PRO - BẢN NÂNG CẤP CHỐNG OUT NICK & GIẢI CAPTCHA
+========================================================================
+
+1. CÁC TÍNH NĂNG VÀ CẢI TIẾN MỚI NHẤT:
+- 🛡️ Chống Out Nick & Xung Đột Thiết Bị:
+  Bảo vệ tài khoản an toàn tuyệt đối khi nạp từ file hoặc dán Cookie.
+  Tự động nhận diện đầy đủ danh tính thiết bị (ttwid, sid_guard, s_v_web_id)
+  ngăn chặn 100% tình trạng bị TikTok server thu hồi phiên (sessionid=deleted).
+- 🧩 Hỗ Trợ Giải Captcha Thông Minh (Ghép hình / Xoay vòng):
+  Khi TikTok yêu cầu xác minh "Drag the slider to fit the puzzle", tool sẽ tự
+  động đưa cửa sổ Chrome lên trước màn hình và kiên nhẫn chờ bạn kéo thanh trượt
+  (tối đa 120s). Ngay khi kéo khớp hình xong, tool tự động bấm Follow lại và
+  tiếp tục chạy hàng loạt mượt mà.
+- 💾 Tự Động Lưu Token Sau Khi Giải Captcha:
+  Sau khi bạn kéo Captcha 1 lần, TikTok cấp token thiết bị tin cậy (s_v_web_id);
+  tool tự động cập nhật token này vào tài khoản để các mục tiêu follow tiếp theo
+  KHÔNG BAO GIỜ bị hỏi Captcha nữa.
+- 📂 Nhập File Tài Khoản Tự Động Xử Lý 100%:
+  Chỉ cần chuẩn bị file .txt chứa danh sách nick (mỗi dòng 1 nick), tool tự động
+  đọc, tự nạp từng nick, follow target, nghỉ ngơi delay ngẫu nhiên và tự chuyển
+  acc tiếp theo cho đến khi hoàn tất toàn bộ file.
+- 🍪 Bộ Lọc Đa Định Dạng Cookie Siêu Mạnh:
+  Hỗ trợ cả:
+  1. sessionid thô (chuỗi hex 32/64 ký tự).
+  2. Chuỗi Cookie trình duyệt (sessionid=...; ttwid=...; sid_guard=...).
+  3. Định dạng phân cách dấu gạch đứng: user|pass|cookie hoặc user|cookie.
+  4. Định dạng kèm Proxy: sessionid|ip:port:user:pass.
+  5. File JSON xuất trực tiếp từ extension Cookie-Editor, J2Team.
+
+------------------------------------------------------------------------
+2. HƯỚNG DẪN KHỞI CHẠY TOOL:
+- Nhấp đúp chuột vào file: TikTok_Auto_Tool.exe (hoặc Chay_Tool.bat)
+- Giao diện tool sẽ xuất hiện ngay lập tức!
+
+------------------------------------------------------------------------
+3. CÁCH SỬ DỤNG TAB "FOLLOW HÀNG LOẠT":
+
+Bước 1: Nhập danh sách tài khoản
+- Cách A: Bấm nút "📂 Nhập từ file .txt" và chọn file danh sách tài khoản của bạn.
+- Cách B: Dán trực tiếp danh sách vào ô bên trái (mỗi dòng 1 tài khoản).
+- Nhìn thấy dòng chữ xanh lá: "🟢 Đã nạp: X tài khoản hợp lệ" là thành công.
+
+Bước 2: Nhập danh sách mục tiêu cần Follow
+- Dán username TikTok cần tăng follow (ví dụ: @dangquochuy.dev).
+- Có thể nhập nhiều mục tiêu, mỗi người 1 dòng.
+
+Bước 3: Cài đặt & Khởi chạy
+- Khuyến nghị: Để nguyên ô "Chạy ẩn" KHÔNG TÍCH (để cửa sổ Chrome hiển thị rõ).
+- Bấm "▶ BẮT ĐẦU FOLLOW".
+- Tool sẽ tự động mở trang, mô phỏng hành vi người dùng thật và bấm Follow.
+- Nếu TikTok hiện câu hỏi xoay hình / ghép hình ("Drag the slider to fit the puzzle"):
+  Bạn chỉ cần dùng chuột kéo thanh trượt khớp hình trên Chrome một lần.
+  Tool sẽ tự động nhận diện đã giải xong và chạy tiếp tất cả các nick còn lại!
+
+------------------------------------------------------------------------
+CHÚC BẠN SỬ DỤNG TOOL THÀNH CÔNG VÀ HIỆU QUẢ!
+========================================================================

@@ -1,0 +1,20 @@
+# ==============================================================================
+# DANH SÁCH TÀI KHOẢN MẪU CHO TÍNH NĂNG FOLLOW HÀNG LOẠT
+# ==============================================================================
+# Hướng dẫn: Bạn có thể chọn 1 trong các cách điền tài khoản dưới đây:
+#
+# Cách 1: Chỉ dán sessionid thô (chuỗi 32 hoặc 64 ký tự hex)
+# 757e930fca5d82098402abcdef123456
+#
+# Cách 2: Chuỗi Cookie trích xuất từ trình duyệt (có dấu =)
+# sessionid=757e930fca5d82098402abcdef123456; ttwid=1%7C...; msToken=...
+#
+# Cách 3: Định dạng phân cách dấu gạch đứng (|):
+# uid_hoac_user|mat_khau|sessionid_hoac_cookie
+#
+# Cách 4: Định dạng kèm Proxy cho từng nick:
+# sessionid_hoac_cookie|192.168.1.100:8080:user:pass
+#
+# ==============================================================================
+# DÁN DANH SÁCH TÀI KHOẢN CỦA BẠN DƯỚI ĐÂY (Mỗi dòng 1 tài khoản):
+

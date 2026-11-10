@@ -1,0 +1,13 @@
+{
+  "videos_per_user": 20,
+  "concurrency": 1,
+  "min_delay": 1,
+  "max_delay": 2,
+  "headless": false,
+  "recent_users": "@dangquochuy.dev",
+  "follow_concurrency": 1,
+  "follow_min_delay": 5,
+  "follow_max_delay": 10,
+  "follow_headless": false,
+  "recent_targets": "@dangquochuy.dev"
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.class
+*.spec
+build/
+dist/
+browser_profile/
+*.png
+*.jpg
+*.html
+*.log
+.vscode/
+.venv/
+env/
+venv/
